@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #89ccff;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    background-color: #e5f2fc;
+}
+
+.register-form {
+  background-color: transparent;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.register-form h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #111;
+}
+
+.register-form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input::placeholder,
+select {
+  color: #888;
+}
+
+.register-btn {
+  width: 100%;
+  background-color: #2496ed;
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background-color: #1c7ed6;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.login-link a {
+  color: #2496ed;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.pt{
+    padding-top: 10px;
+}
+
+.c-email{
+    width: 100%;
+}
+
+.img{
+    height: 515px;
+    width: 100%;
+}
