@@ -4,13 +4,26 @@
   margin: 0;
   padding: 0;
 }
-
+.logo-card {
+  width: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+.logo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 body {
   background-color: #89ccff;
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
 }
 
 .container {
@@ -56,7 +69,7 @@ body {
   font-weight: 500;
 }
 
-.login-box input[type="text"],
+.login-box input[type="number"],
 .login-box input[type="password"] {
   padding: 10px;
   margin-bottom: 20px;

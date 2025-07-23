@@ -1,0 +1,65 @@
+body {
+  background-color: #f5faff;
+}
+.logo-card {
+  width: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+.logo-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #ffffff;
+  padding-top: 30px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  padding: 12px 20px;
+  border-radius: 0;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #2a74f9;
+  color: #fff;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.table-status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.on-time {
+  background-color: green;
+}
+
+.late {
+  background-color: orange;
+}
+
+.search-box {
+  max-width: 200px;
+}
+
+.legend span {
+  margin-right: 20px;
+}
